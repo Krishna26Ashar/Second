@@ -1,2 +1,2 @@
 rootProject.name='Second'
-include ':app', 'Civil', 'Cs', 'ELECTRONICS', 'ElectronicsAndTelecom', 'ETC', 'IT', 'Mech', 'Prod', 'Textile'
+include ':app', 'CivilSy', 'CsSy', 'ELECTRONICSSy', 'ElectronicsAndTelecomSy', 'ETCSy', 'ITSy', 'MechSy', 'ProdSy', 'TextileSy'

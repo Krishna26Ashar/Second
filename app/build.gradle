@@ -35,13 +35,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(path: ':Civil')
-    implementation project(path: ':Cs')
-    implementation project(path: ':ELECTRONICS')
-    implementation project(path: ':ElectronicsAndTelecom')
-    implementation project(path: ':ETC')
-    implementation project(path: ':IT')
-    implementation project(path: ':Mech')
-    implementation project(path: ':Prod')
-    implementation project(path: ':Textile')
+    implementation project(path: ':CivilSy')
+    implementation project(path: ':CsSy')
+    implementation project(path: ':ELECTRONICSSy')
+    implementation project(path: ':ElectronicsAndTelecomSy')
+    implementation project(path: ':ETCSy')
+    implementation project(path: ':ITSy')
+    implementation project(path: ':MechSy')
+    implementation project(path: ':ProdSy')
+    implementation project(path: ':TextileSy')
 }

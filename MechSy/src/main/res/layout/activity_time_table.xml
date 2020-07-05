@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeTable">
+
+
+    <include
+
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagemech"
+        android:layout_centerInParent="true"
+        android:width="200dp"
+        android:height="70dp"
+        android:background="#1E88E5"
+        android:text="@string/download" />
+
+    <ImageView
+        android:id="@+id/imagemech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tt_sy_prod"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/todo" />
+
+
+</RelativeLayout>
