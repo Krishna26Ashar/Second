@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SyElectronics"
+    android:background="@drawable/backgroundel">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:width="200dp"
+            android:height="70dp"
+            android:background="@drawable/round_btn2"
+            android:fontFamily="@font/bevan"
+            android:text="@string/timetable"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:height="70dp"
+            android:background="@drawable/round_btn2"
+            android:fontFamily="@font/bevan"
+            android:text="@string/syllabus"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:height="70dp"
+            android:background="@drawable/round_btn2"
+            android:fontFamily="@font/bevan"
+            android:text="@string/grades"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:height="70dp"
+            android:background="@drawable/round_btn2"
+            android:fontFamily="@font/bevan"
+            android:text="@string/assignments"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/round_btn"
+        android:text="LOGOUT"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

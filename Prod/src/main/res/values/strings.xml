@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">SecondYear</string>
+    <string name="timetable">TimeTable</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="grades">Grades</string>
+    <string name="assignments">Assignments</string>
+    <string name="attendance">Attendance</string>
+    <string name="IT">Information Technology</string>
+    <string name="download">Download</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="Prod">Production</string>
+
+</resources>
